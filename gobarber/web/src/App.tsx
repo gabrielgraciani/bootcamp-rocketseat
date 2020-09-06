@@ -1,21 +1,14 @@
 import React from 'react';
 
+import GlobalStyle from './styles/global';
+import SignIn from './pages/Signin';
+
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <span>qwewq eqwweq</span>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <SignIn />
+    </>
   );
 };
 
