@@ -1,5 +1,3 @@
 import styled from 'styled-components/native';
 
-const Container = styled.View``;
-
-export { Container };
+export const Container = styled.View``;

@@ -30,10 +30,11 @@
     ],
     "rules": {
       "react-hooks/rules-of-hooks": "error",
+      "prettier/prettier": "error",
       "react-hooks/exhaustive-deps": "warn",
+      "no-use-before-define": "off",
       "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
       "import/prefer-default-export": "off",
-      "no-unused-expressions": "off",
       "import/extensions": [
         "error",
         "ignorePackages",
@@ -41,13 +42,11 @@
           "ts": "never",
           "tsx": "never"
         }
-      ],
-      "no-use-before-define": "off",
-      "prettier/prettier": "error"
+      ]
     },
     "settings": {
-      "import/resolver": {
-        "typescript": {}
+        "import/resolver": {
+          "typescript": {}
+        }
       }
-    }
 }
